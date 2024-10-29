@@ -4,17 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMW</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-1com" href="img/Logo.png">
 </head>
 <body>
     <header class="header">
         <div class="motorrad">
-        <img class="img_logo_header" src="img/bmw-transparent-bmw-free-free-png.webp" alt="img del logo">
-        <h1>BMW Motorrad</h1>
-    </div>
+            <img class="img_logo_header" src="img/bmw-transparent-bmw-free-free-png.webp" alt="img del logo">
+            <h1>BMW Motorrad</h1>
+        </div>
+        <div class="car-container">
+            <a href="#" id="Car-icon"><i class="fa-solid fa-cart-shopping"></i>ver carrito <span class="cart-count">0</span></a>
+        </div>
     </header>
+
+
     <main>
+        <div class="central">
+
+            <div class="S1000RR"> 
+                <img class="img_S1000RR" src="img/S1000RR.jpg" alt="">
+                <div class="name_bike">
+                    <h2>S1000RR</h2>
+                    <p class="price">Precio</p>
+                </div>
+                <div class="product-button">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#" class="add-cart">agregar carrito</a>
+                </div>
+            </div>
+
+            <div class="S1000RR"> 
+                <img class="img_S1000RR" src="img/S1000RR.jpg" alt="">
+                <div class="name_bike">
+                    <h2>S1000RR</h2>
+                    <p class="price">Precio</p>
+                </div>
+                <div class="product-button">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#" class="add-cart">agregar carrito</a>
+                </div>
+            </div>
+
+            <div class="S1000RR"> 
+                <img class="img_S1000RR" src="img/S1000RR.jpg" alt="">
+                <div class="name_bike">
+                    <h2>S1000RR</h2>
+                    <p class="price">Precio</p>
+                </div>
+                <div class="product-button">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#" class="add-cart">agregar carrito</a>
+                </div>
+            </div>
+
+            <div class="S1000RR"> 
+                <img class="img_S1000RR" src="img/S1000RR.jpg" alt="">
+                <div class="name_bike">
+                    <h2>S1000RR</h2>
+                    <p class="price">Precio</p>
+                </div>
+                <div class="product-button">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#" class="add-cart">agregar carrito</a>
+                </div>
+            </div>
+
+            <div class="S1000RR"> 
+                <img class="img_S1000RR" src="img/S1000RR.jpg" alt="">
+                <div class="name_bike">
+                    <h2>S1000RR</h2>
+                    <p class="price">Precio</p>
+                </div>
+                <div class="product-button">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#" class="add-cart">agregar carrito</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="cart-modal" class="cart-modal">
+            <div class="cart-content">
+                <span class="close-cart">time</span>
+                <h2>carrito compras</h2>
+                <ul id="cart-items"></ul>
+                <p id="total">total 0</p>
+                <button id="checkout">Finalizar compra </button>
+            </div>
+        </div>
+
+        <div id="puchase-modal" class="puchase-modal">
+            <div class="puchase-content">
+                <h2>compra finalizada</h2>
+                <p>gracias por tu compra</p>
+                <button id="close-puchase">cerrar</button>
+            </div>
+        </div>
 
     </main>
     <footer>
